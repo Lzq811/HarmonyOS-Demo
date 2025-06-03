@@ -1,5 +1,6 @@
 import { AbilityConstant, ConfigurationConstant, UIAbility, Want } from '@kit.AbilityKit';
 import { hilog } from '@kit.PerformanceAnalysisKit';
+import { BusinessError } from '@kit.BasicServicesKit';
 import { window } from '@kit.ArkUI';
 
 const DOMAIN = 0x0000;
@@ -14,7 +15,7 @@ export default class EntryAbility extends UIAbility {
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onDestroy');
   }
 
-  onWindowStageCreate(windowStage: window.WindowStage): void {
+  async onWindowStageCreate(windowStage: window.WindowStage): Promise<void> {
     // Main window is created, set main page for this ability
     hilog.info(DOMAIN, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
 
@@ -25,6 +26,19 @@ export default class EntryAbility extends UIAbility {
       }
       hilog.info(DOMAIN, 'testTag', 'Succeeded in loading the content.');
     });
+
+    // 全屏展示 安全区域 safeArea 沉浸式页面
+    const windowClass = await windowStage.getMainWindow()
+    windowClass.setWindowLayoutFullScreen(true) // true全屏，false不是全屏
+    // 获取非安全区域的大小
+    const avoidArea = windowClass.getWindowAvoidArea(window.AvoidAreaType.TYPE_SYSTEM)
+    AppStorage.setOrCreate('avoidAreaTop', px2vp(avoidArea.topRect.height)) // avoidArea.topRect 是px 所以要转换成 vp
+    AppStorage.setOrCreate('avoidAreaBottom',  px2vp(avoidArea.bottomRect.height)) // 模拟器是 0
+
+    // 修改状态栏颜色 -- 时间 电量 信号 等 放在首页最顶部的信息
+    windowClass.setWindowSystemBarProperties({
+      statusBarContentColor: '#FFFFFF' // 默认白色， 页面滚动后改成黑色 scrollContainer组件中设置
+    })
   }
 
   onWindowStageDestroy(): void {

@@ -15,8 +15,8 @@
         "name": "EntryAbility",
         "srcEntry": "./ets/entryability/EntryAbility.ets",
         "description": "$string:EntryAbility_desc",
-        "icon": "$media:layered_image",
-        "label": "$string:EntryAbility_label",
+        "icon": "$media:layered_image", // 应用图标
+        "label": "$string:EntryAbility_label", // 应用标题
         "startWindowIcon": "$media:startIcon",
         "startWindowBackground": "$color:start_window_background",
         "exported": true,
@@ -45,6 +45,9 @@
           }
         ],
       }
-    ]
+    ],
+    "requestPermissions": [{
+      "name": "ohos.permission.INTERNET" // 申请使用网络权限
+    }]
   }
 }
