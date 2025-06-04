@@ -1,8 +1,9 @@
 
 import {getNearbyHouseApi} from '../../api/home'
-import { BORDER_RADIUS, BORDER_RADIUS_S, PADDING } from '../../constants/size';
+import { BORDER_RADIUS, PADDING } from '../../constants/size';
 import { INearbyHouseItem, INearbyHouseList, INearbyHouseTagsItem } from '../../models/HomeData';
-import { AnyObject } from '../../models/HttpModle';
+
+import NearbyHouseData from '../../jsonData/nearbyHouse.json'
 
 @Component
 export default struct NearbyHouse {
@@ -13,8 +14,8 @@ export default struct NearbyHouse {
   }
 
   async getNearbyHouseData() {
-    const resData:INearbyHouseList = await getNearbyHouseApi()
-    this.nearbyHouseList = resData || []
+    // const resData:INearbyHouseList = await getNearbyHouseApi()
+    this.nearbyHouseList = NearbyHouseData
   }
 
   build() {

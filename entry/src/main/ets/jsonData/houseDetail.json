@@ -1,0 +1,233 @@
+{
+  "houseTitle": "合租·天通苑东二区 3居室 北卧",
+  "address": "昌平·天通苑",
+  "rentPriceUnit": "元/月",
+  "housePicture": [
+    {
+      "spaceName": "房间",
+      "picList": [
+        "http://localhost:6060/public/room98.jpg",
+        "http://localhost:6060/public/room25.jpg",
+        "http://localhost:6060/public/room80.jpg"
+      ]
+    },
+    {
+      "spaceName": "客房",
+      "picList": [
+        "http://localhost:6060/public/room87.jpg",
+        "http://localhost:6060/public/room22.jpg",
+        "http://localhost:6060/public/room19.jpg",
+        "http://localhost:6060/public/room78.jpg"
+      ]
+    },
+    {
+      "spaceName": "厨房",
+      "picList": [
+        "http://localhost:6060/public/room89.jpg",
+        "http://localhost:6060/public/room86.jpg",
+        "http://localhost:6060/public/room10.jpg"
+      ]
+    },
+    {
+      "spaceName": "户型",
+      "picList": [
+        "http://localhost:6060/public/room42.jpg",
+        "http://localhost:6060/public/room38.jpg"
+      ]
+    },
+    {
+      "spaceName": "小区",
+      "picList": [
+        "http://localhost:6060/public/room94.jpg",
+        "http://localhost:6060/public/room52.jpg",
+        "http://localhost:6060/public/room97.jpg",
+        "http://localhost:6060/public/room87.jpg"
+      ]
+    },
+    {
+      "spaceName": "服务",
+      "picList": [
+        "http://localhost:6060/public/room14.jpg",
+        "http://localhost:6060/public/room15.jpg",
+        "http://localhost:6060/public/room84.jpg",
+        "http://localhost:6060/public/room16.jpg"
+      ]
+    }
+  ],
+  "tags": [
+    {
+      "name": "精装"
+    },
+    {
+      "name": "集中供暖"
+    },
+    {
+      "name": "押一付一"
+    },
+    {
+      "name": "随时看房"
+    }
+  ],
+  "rentPriceUnitListing": "2030",
+  "distanceInfo": null,
+  "rentTerm": {
+    "checkInTime": "租期最长1年10个月",
+    "term": "随时入住",
+    "kitchen": "有",
+    "lift": "有",
+    "seeTime": "可随时看房",
+    "year": "2022年建成",
+    "renovation": "谷粒6.0",
+    "grounding": "非首次出租",
+    "heating": "集体供暖",
+    "green": "30%",
+    "protection": "房屋空气质量已检测",
+    "house": "天通苑东二区"
+  },
+  "metaInfo": [
+    {
+      "name": "使用面积",
+      "desc": "11.80"
+    },
+    {
+      "name": "朝向",
+      "desc": "北"
+    },
+    {
+      "name": "户型",
+      "desc": "3居室"
+    },
+    {
+      "name": "楼层",
+      "desc": "5/7"
+    }
+  ],
+  "id": "BJ1835592932426514432",
+  "rentArea": "",
+  "discounts": [
+    {
+      "tagTxtBgAroundColor": "#FF7E6C",
+      "image": "http://localhost:6060/public/detail_discount1.jpg",
+      "txt": "万份暖冬补贴，最高2800元",
+      "tagTxt": "最高优惠2800元",
+      "tagTxtColor": "#DB0505"
+    },
+    {
+      "tagTxtBgAroundColor": "#FF7E6C",
+      "image": "http://localhost:6060/public/detail_discount2.jpg",
+      "txt": "在校生租金，立减80%",
+      "tagTxt": "在校生减80%",
+      "tagTxtColor": "#DB0505"
+    }
+  ],
+  "householdItem": [
+    {
+      "name": "01房间",
+      "itemList": [
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "2.2米床"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "三开内衣柜"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "0.9米书桌"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "书桌"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "空调"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "智能锁"
+        }
+      ]
+    },
+    {
+      "name": "公共区域",
+      "itemList": [
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "冰箱"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "油烟机"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "微波炉"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "洗衣机"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "智能锁"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "花洒"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "浴霸"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "餐桌"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "燃气灶"
+        },
+        {
+          "icon": "http://localhost:6060/public/item_1.png",
+          "value": "电热水器"
+        }
+      ]
+    }
+  ],
+  "support": [
+    {
+      "image": "http://localhost:6060/public/support_1.png",
+      "title": "租期保洁服务",
+      "subTitle": "每月2次公区保洁"
+    },
+    {
+      "image": "http://localhost:6060/public/support_2.png",
+      "title": "租期专业维修",
+      "subTitle": "全天保修10min响应"
+    },
+    {
+      "image": "http://localhost:6060/public/support_3.png",
+      "title": "24小时云管家",
+      "subTitle": "7*24小时在线受理"
+    },
+    {
+      "image": "http://localhost:6060/public/support_4.png",
+      "title": "优质管家",
+      "subTitle": "租前租期悉心守护"
+    }
+  ],
+  "rentInfo": [
+    {
+      "image": "http://localhost:6060/public/tenant.png",
+      "title": "02卧·已租5个月",
+      "userTag": "女 | 天蝎座 | 市场商务"
+    },
+    {
+      "image": "http://localhost:6060/public/tenant.png",
+      "title": "02卧·已租5个月",
+      "userTag": "男 | 天蝎座 | 天蝎座"
+    }
+  ]
+}

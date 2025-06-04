@@ -1,0 +1,183 @@
+ [
+    {
+      "id": "BJ1835592932426514432",
+      "housePicture": "http://localhost:6060/public/room98.jpg",
+      "tags": [
+        {
+          "name": "精装"
+        },
+        {
+          "name": "集中供暖"
+        },
+        {
+          "name": "押一付一"
+        },
+        {
+          "name": "随时看房"
+        }
+      ],
+      "houseTitle": "合租·天通苑东二区 3居室 北卧",
+      "address": "昌平·天通苑",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "2030",
+      "rentArea": "11.80"
+    },
+    {
+      "id": "BJ1823304126084153344",
+      "housePicture": "http://localhost:6060/public/room17.jpg",
+      "tags": [
+        {
+          "name": "新上"
+        },
+        {
+          "name": "精装"
+        },
+        {
+          "name": "集中供暖"
+        },
+        {
+          "name": "押一付一"
+        },
+        {
+          "name": "随时看房"
+        }
+      ],
+      "houseTitle": "整租·合生世界村 3房间 东",
+      "address": "通州·马驹桥",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "3500",
+      "rentArea": "70.58"
+    },
+    {
+      "id": "BJ1812874767703736320",
+      "housePicture": "http://localhost:6060/public/room4.jpg",
+      "tags": [
+        {
+          "name": "独立卫生间"
+        },
+        {
+          "name": "月租"
+        },
+        {
+          "name": "精装"
+        },
+        {
+          "name": "集中供暖"
+        },
+        {
+          "name": "押一付一"
+        },
+        {
+          "name": "随时看房"
+        }
+      ],
+      "houseTitle": "合租·西辛北区 4居室 南卧",
+      "address": "顺义·顺义城",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "2060",
+      "rentArea": "12.36"
+    },
+    {
+      "id": "BJ1832740132583636992",
+      "housePicture": "http://localhost:6060/public/room36.jpg",
+      "tags": [
+        {
+          "name": "官方核验"
+        },
+        {
+          "name": "集中供暖"
+        }
+      ],
+      "houseTitle": "整租·观音寺新区 2室2厅 南/北",
+      "address": "大兴·观音寺",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "3300",
+      "rentArea": "92.00"
+    },
+    {
+      "id": "BJ1826994559746310144",
+      "housePicture": "http://localhost:6060/public/room87.jpg",
+      "tags": [
+        {
+          "name": "近地铁"
+        },
+        {
+          "name": "精装"
+        },
+        {
+          "name": "集中供暖"
+        },
+        {
+          "name": "押一付一"
+        },
+        {
+          "name": "随时看房"
+        }
+      ],
+      "houseTitle": "整租·顺源里 1室1厅 南",
+      "address": "朝阳·亮马桥",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "6330",
+      "rentArea": "38.00"
+    },
+    {
+      "id": "BJ1851565534244503552",
+      "housePicture": "http://localhost:6060/public/room32.jpg",
+      "tags": [
+        {
+          "name": "官方核验"
+        },
+        {
+          "name": "精装"
+        },
+        {
+          "name": "集中供暖"
+        },
+        {
+          "name": "随时看房"
+        }
+      ],
+      "houseTitle": "整租·西荣阁 1房间 北",
+      "address": "海淀·四季青",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "5400",
+      "rentArea": "46.00"
+    },
+    {
+      "id": "BJ1825864163440721920",
+      "housePicture": "http://localhost:6060/public/room61.jpg",
+      "tags": [
+        {
+          "name": "官方核验"
+        },
+        {
+          "name": "近地铁"
+        },
+        {
+          "name": "精装"
+        }
+      ],
+      "houseTitle": "整租·国中大厦 2房间 北",
+      "address": "东城·灯市口",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "8000",
+      "rentArea": "77.80"
+    },
+    {
+      "id": "BJ1853647443233603584",
+      "housePicture": "http://localhost:6060/public/room2.jpg",
+      "tags": [
+        {
+          "name": "官方核验"
+        },
+        {
+          "name": "集中供暖"
+        }
+      ],
+      "houseTitle": "整租·南海家园七里 1室1厅 南",
+      "address": "大兴·亦庄开发区其它",
+      "rentPriceUnit": "元/月",
+      "rentPriceListing": "3800",
+      "rentArea": "70.00"
+    }
+  ]

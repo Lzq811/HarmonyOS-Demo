@@ -31,15 +31,25 @@ export default struct See {
         Text('暂无想看房源，试试如下找房方式').fontColor($r('app.color.black')).fontSize(16).fontWeight(700)
       }
       .margin({top: 16})
-      Row({space: 20}){
-        Column(){
-
-        }
+      Flex({justifyContent: FlexAlign.SpaceAround, alignItems: ItemAlign.Center}) {
+        Flex({justifyContent: FlexAlign.Center, alignItems: ItemAlign.Center}){
+          Image($r('app.media.bus')).width(34).height(34).margin(10)
+          Column({space: 4}){
+            Text('通勤找房').fontSize(14).fontWeight(FontWeight.Bold).width('100%')
+            Text('按公司通勤时长找房').fontSize(10).fontColor($r('app.color.gray_text')).width('100%')
+          }
+        }.FlexItemStyles()
+        Flex({justifyContent: FlexAlign.Center, alignItems: ItemAlign.Center}){
+          Image($r('app.media.map')).width(34).height(34).margin(10)
+          Column({space: 4}){
+            Text('通勤找房').fontSize(14).fontWeight(FontWeight.Bold).width('100%')
+            Text('按公司通勤时长找房').fontSize(10).fontColor($r('app.color.gray_text')).width('100%')
+          }
+        }.FlexItemStyles()
       }
       .width(328)
       .height(80)
       .shadow({radius: 20, color: $r('app.color.gray_text')})
-      .justifyContent(FlexAlign.Start)
       .margin({top: 30})
     }
     .height('100%')
@@ -56,4 +66,10 @@ export default struct See {
 @Styles
 function IconStyles() {
   .width(16).height(16)
+}
+
+@Styles
+function  FlexItemStyles () {
+  .width('45%')
+  .height('60%')
 }

@@ -56,7 +56,7 @@ export interface INearbyHouseItem {
   "rentPriceListing": string
   "rentArea": string
 }
-export type INearbyHouseList = INearbyHouseTagsItem[]
+export type INearbyHouseList = INearbyHouseItem[]
 
 export interface IColor {
   bgColor: string

@@ -1,0 +1,99 @@
+{
+  "bannerList": [
+    {
+      "id": 1,
+      "name": "banner1",
+      "imageURL": "http://localhost:6060/public/home_banner_1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "banner2",
+      "imageURL": "http://localhost:6060/public/home_banner_2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "banner3",
+      "imageURL": "http://localhost:6060/public/home_banner_3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "banner4",
+      "imageURL": "http://localhost:6060/public/home_banner_4.jpg"
+    }
+  ],
+  "navList": [
+    {
+      "id": 1,
+      "title": "合租",
+      "imageURL": "http://localhost:6060/public/home_nav_1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "独立主卧",
+      "imageURL": "http://localhost:6060/public/home_nav_2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "整租1租",
+      "imageURL": "http://localhost:6060/public/home_nav_3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "整租2-3租",
+      "imageURL": "http://localhost:6060/public/home_nav_4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "小客厅",
+      "imageURL": "http://localhost:6060/public/home_nav_5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "大客厅",
+      "imageURL": "http://localhost:6060/public/home_nav_6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "短租",
+      "imageURL": "http://localhost:6060/public/home_nav_7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "押金0首付",
+      "imageURL": "http://localhost:6060/public/home_nav_8.jpg"
+    }
+  ],
+  "tileList": [
+    {
+      "id": 1,
+      "imageURL": "http://localhost:6060/public/home_tile_1.jpg",
+      "title": "硅谷家服",
+      "sub_title": "搬家·保洁·清洁·维修"
+    },
+    {
+      "id": 2,
+      "imageURL": "http://localhost:6060/public/home_tile_2.jpg",
+      "title": "硅谷智能",
+      "sub_title": "全屋智能家装"
+    }
+  ],
+  "planList": [
+    {
+      "id": 1,
+      "imageURL": "http://localhost:6060/public/home_plan_1.jpg"
+    },
+    {
+      "id": 2,
+      "imageURL": "http://localhost:6060/public/home_plan_2.jpg"
+    },
+    {
+      "id": 3,
+      "imageURL": "http://localhost:6060/public/home_plan_3.jpg"
+    },
+    {
+      "id": 4,
+      "imageURL": "http://localhost:6060/public/home_plan_4.jpg"
+    }
+  ],
+  "adPicture": "http://localhost:6060/public/home_ad.jpg"
+}

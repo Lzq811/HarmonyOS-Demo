@@ -8,7 +8,7 @@ import TileList from '../views/Home/TileList'
 import PlanList from '../views/Home/PlanList'
 import NearbyHouse from '../views/Home/NearbyHouse'
 import ScrollContainer from '../Components/ScrollContainer/Index'
-
+import HomeData from '../jsonData/homeData.json'
 @Component
 export default struct Home {
   @State bannerList: IBannerList = []
@@ -22,12 +22,18 @@ export default struct Home {
   }
 
   async getHomeData() {
-    const homeData = await getHomeDataApi()
-    this.bannerList = homeData.bannerList || []
-    this.navList = homeData.navList || []
-    this.tileList = homeData.tileList || []
-    this.planList = homeData.planList || []
-    this.adPicture = homeData.adPicture || ''
+    // const homeData = await getHomeDataApi()
+    // this.bannerList = homeData.bannerList || []
+    // this.navList = homeData.navList || []
+    // this.tileList = homeData.tileList || []
+    // this.planList = homeData.planList || []
+    // this.adPicture = homeData.adPicture || ''
+    this.bannerList = HomeData.bannerList || []
+    this.navList = HomeData.navList || []
+    this.tileList = HomeData.tileList || []
+    this.planList = HomeData.planList || []
+    this.adPicture = HomeData.adPicture || ''
+
   }
 
   @Builder
