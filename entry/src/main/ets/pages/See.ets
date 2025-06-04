@@ -1,8 +1,30 @@
 import { PADDING } from "../constants/size"
+import {rcp} from '@kit.RemoteCommunicationKit'
+import { AnyObject } from "../models/HttpModle"
 
 @Component
 export default struct See {
   @StorageProp('avoidAreaTop') avoidAreaTop:number = 0
+  @State dogData:AnyObject = {}
+
+  aboutToAppear(): void {
+    this.getData()
+  }
+
+  getData() {
+    const baseUrl = 'https://dog.ceo'
+    const path = '/api/breeds/image/random'
+    const request = new rcp.Request(`${baseUrl}${path}`, 'GET')
+    request.headers = { 'Content-Type': 'application/json' }; // 设置请求头
+    const session =  rcp.createSession()
+    session.fetch(request).then((res:rcp.Response) => {
+      console.log(`Response succeeded: ${res}`)
+      this.dogData = JSON.parse(`${res}`)
+    }).catch((err:rcp.Response) => {
+      console.log(JSON.stringify(err) + 'err')
+    })
+  }
+
   build() {
     Column() {
       Row({space: 10}){
@@ -27,7 +49,8 @@ export default struct See {
       .justifyContent(FlexAlign.Start)
       .margin({top: 30})
       Column({space: 10}){
-        Image($r('app.media.blank')).objectFit(ImageFit.Fill).width(234).height(222)
+        // Image($r('app.media.blank')).objectFit(ImageFit.Fill).width(234).height(222)
+        Image(this.dogData.message).objectFit(ImageFit.Fill).width(234).height(222)
         Text('暂无想看房源，试试如下找房方式').fontColor($r('app.color.black')).fontSize(16).fontWeight(700)
       }
       .margin({top: 16})
